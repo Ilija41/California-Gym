@@ -30,14 +30,14 @@ export function Hero() {
           Moderna oprema, iskusni treneri, raznovrsni treninzi i suplementi
         </p>
         <div className="flex gap-3 sm:gap-4 justify-center flex-wrap px-4">
-          <a 
-            href="#services" 
+          <a
+            href="/#services"
             className="bg-red-600 hover:bg-red-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base uppercase tracking-wider transition-all duration-300 transform hover:scale-105 border-2 border-red-600"
           >
             Treninzi
           </a>
-          <a 
-            href="#contact" 
+          <a
+            href="/#contact"
             className="bg-transparent hover:bg-red-600/20 text-white px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base uppercase tracking-wider transition-all duration-300 border-2 border-red-600"
           >
             Kontakt

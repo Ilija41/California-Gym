@@ -36,19 +36,19 @@ export function Footer() {
             <h4 className="text-white uppercase tracking-wide mb-4">Navigacija</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
-                <a href="#home" className="hover:text-red-600 transition-colors">Home</a>
+                <a href="/#home" className="hover:text-red-600 transition-colors">Home</a>
               </li>
               <li>
-                <a href="#about" className="hover:text-red-600 transition-colors">O Nama</a>
+                <a href="/#about" className="hover:text-red-600 transition-colors">O Nama</a>
               </li>
               <li>
-                <a href="#services" className="hover:text-red-600 transition-colors">Treninzi</a>
+                <a href="/#services" className="hover:text-red-600 transition-colors">Treninzi</a>
               </li>
               <li>
-                <a href="#trainers" className="hover:text-red-600 transition-colors">Treneri</a>
+                <a href="/#trainers" className="hover:text-red-600 transition-colors">Treneri</a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-red-600 transition-colors">Kontakt</a>
+                <a href="/#contact" className="hover:text-red-600 transition-colors">Kontakt</a>
               </li>
             </ul>
           </div>

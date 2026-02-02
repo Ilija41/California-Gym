@@ -27,38 +27,38 @@ const trainingTypes = [
     name: 'Početni Nivo',
     description: 'Za one koji prvi put stupaju na tatami. Osnove, tehnike, kondicija.',
     duration: '60 minuta',
-    days: 'Utorak, Četvrtak - 18:00'
+    days: 'Utorak, Četvrtak - 19:30'
   },
   {
     name: 'Srednji Nivo',
     description: 'Napredne kombinacije, sparinzi, taktika. Za one sa iskustvom.',
-    duration: '75 minuta',
-    days: 'Ponedeljak, Sreda, Petak - 19:00'
+    duration: '60 minuta',
+    days: 'Po dogovoru'
   },
   {
     name: 'Takmičarski Tim',
     description: 'Priprema za meč. Maksimalna intenzivnost. Samo za posvećene.',
-    duration: '90 minuta',
-    days: 'Svaki dan po dogovoru'
+    duration: '60 minuta',
+    days: 'Po dogovoru'
   }
 ];
 
 const pricingOptions = [
   {
     name: 'Jedna Sesija',
-    price: '800 RSD',
+    price: '1.000 RSD',
     description: 'Probaj i vidi da li je za tebe'
   },
   {
     name: 'Mesečna Članarina',
-    price: '5.000 RSD',
+    price: '2.500 RSD',
     description: 'Neograničen broj grupnih treninga',
     popular: true
   },
   {
     name: 'Personalni Trening',
-    price: '2.500 RSD',
-    description: 'Jedan na jedan sa trenerom - po sesiji'
+    price: '12.000 RSD',
+    description: 'Jedan na jedan sa trenerom - po dogovoru'
   }
 ];
 
@@ -214,9 +214,9 @@ export function KickboxPage() {
               <span className="text-red-600">Cenovnik</span>
             </h2>
             <div className="w-32 h-1 bg-red-600 mx-auto mb-6"></div>
-            <p className="text-xl text-gray-400">
+            {/* <p className="text-xl text-gray-400">
               Investicija u sebe. U svoju snagu. U svoju budućnost.
-            </p>
+            </p> */}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -299,7 +299,7 @@ export function KickboxPage() {
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-red-600"></div>
-                <span>Rukavice (imamo na prodaju)</span>
+                <span>Rukavice i štitnike(imamo na prodaju)</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-red-600"></div>

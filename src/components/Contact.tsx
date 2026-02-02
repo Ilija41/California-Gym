@@ -31,7 +31,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white uppercase text-sm tracking-wide mb-1">Lokacija</h4>
-                  <p className="text-gray-400">Adresa teretane</p>
+                  <p className="text-gray-400">Veljka Vlahovića 10</p>
                 </div>
               </div>
 
@@ -41,7 +41,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white uppercase text-sm tracking-wide mb-1">Telefon</h4>
-                  <p className="text-gray-400">Pozovi za info</p>
+                  <p className="text-gray-400">+381 60 3648555 <br /> +381 60 4168894</p>
                 </div>
               </div>
 
@@ -51,9 +51,8 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white uppercase text-sm tracking-wide mb-1">Radno Vreme</h4>
-                  <p className="text-gray-400">Pon - Pet: 06:00 - 23:00</p>
-                  <p className="text-gray-400">Sub: 08:00 - 22:00</p>
-                  <p className="text-gray-400">Ned: 08:00 - 20:00</p>
+                  <p className="text-gray-400">Pon - Sub: 08:00 - 23:00</p>
+                  <p className="text-gray-400">Ned: Slobodan dan</p>
                 </div>
               </div>
             </div>
@@ -72,7 +71,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white uppercase text-sm tracking-wide mb-1">Lokacija</h4>
-                  <p className="text-gray-400">Ista adresa kao California Gym</p>
+                  <p className="text-gray-400">Veljka Vlahovića 10</p>
                 </div>
               </div>
 
@@ -82,7 +81,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white uppercase text-sm tracking-wide mb-1">Telefon</h4>
-                  <p className="text-gray-400">Pozovi za raspored treninga</p>
+                  <p className="text-gray-400">+381 60 3648555 <br /> +381 60 4168894</p>
                 </div>
               </div>
 
@@ -92,8 +91,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white uppercase text-sm tracking-wide mb-1">Treninzi</h4>
-                  <p className="text-gray-400">Grupni: Uto, Čet, Sub</p>
-                  <p className="text-gray-400">Individualni: Dogovor</p>
+                  <p className="text-gray-400">Uto - Čet: 19:30 - 20:30</p>
                 </div>
               </div>
             </div>
@@ -111,13 +109,13 @@ export function Contact() {
             </p>
             <div className="flex gap-4 justify-center mb-6">
               <a 
-                href="tel:+381000000000" 
+                href="tel:+381603648555" 
                 className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 uppercase tracking-wider transition-all duration-300 border-2 border-red-600"
               >
                 Pozovi Sad
               </a>
-              <a 
-                href="#services" 
+              <a
+                href="/#services"
                 className="bg-transparent hover:bg-red-600/20 text-white px-8 py-3 uppercase tracking-wider transition-all duration-300 border-2 border-red-600"
               >
                 Saznaj Više
@@ -127,13 +125,15 @@ export function Contact() {
             {/* Social Icons */}
             <div className="flex gap-4 justify-center">
               <a 
-                href="#" 
+                href="https://www.instagram.com/djekajr/" 
+                target="_blank" rel="noopener noreferrer"
                 className="w-12 h-12 bg-black border-2 border-red-600 flex items-center justify-center hover:bg-red-600 transition-all"
               >
                 <Instagram className="w-5 h-5 text-white" />
               </a>
               <a 
-                href="#" 
+                href="https://www.facebook.com/djekaajr" 
+                target="_blank" rel="noopener noreferrer"
                 className="w-12 h-12 bg-black border-2 border-red-600 flex items-center justify-center hover:bg-red-600 transition-all"
               >
                 <Facebook className="w-5 h-5 text-white" />

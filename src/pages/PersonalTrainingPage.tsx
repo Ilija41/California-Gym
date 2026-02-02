@@ -51,30 +51,17 @@ const trainingGoals = [
 ];
 
 const packages = [
-  {
-    name: '4 Treninga',
-    sessions: '4 sesije',
-    price: '8.000 RSD',
-    perSession: '2.000 RSD po treningu',
-    description: 'Idealno za početak i testiranje'
-  },
-  {
-    name: '8 Treninga',
-    sessions: '8 sesija',
-    price: '14.400 RSD',
-    perSession: '1.800 RSD po treningu',
-    description: 'Najpopularniji paket - ušteda 10%',
-    popular: true,
-    savings: 'Ušteda 1.600 RSD'
-  },
+
   {
     name: '12 Treninga',
     sessions: '12 sesija',
-    price: '19.200 RSD',
-    perSession: '1.600 RSD po treningu',
-    description: 'Najbolja vrednost - ušteda 20%',
-    savings: 'Ušteda 4.800 RSD'
-  }
+    price: '12.000 RSD',
+    perSession: '1.000 RSD po treningu',
+    description: '',
+    popular: true,
+    savings: ''
+  },
+
 ];
 
 const howItWorks = [
@@ -272,7 +259,7 @@ export function PersonalTrainingPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="center gap-8 max-w-6xl mx-auto">
             {packages.map((pkg, index) => (
               <div 
                 key={index}
@@ -325,8 +312,7 @@ export function PersonalTrainingPage() {
                   Fleksibilnost
                 </h3>
                 <p className="text-gray-400 mb-4">
-                  Paketi nemaju rok važenja. Treninge zakazuješ kada ti odgovara - 
-                  ujutru, popodne, uveče. Trener se prilagođava tvom rasporedu.
+                  Treninge zakazuješ po dogovoru sa trenerom, prilagođeno tvom rasporedu.
                 </p>
                 <p className="text-gray-300">
                   Svaka sesija traje 60 minuta individualnog, fokusiranog rada.
