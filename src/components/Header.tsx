@@ -21,7 +21,7 @@ export function Header() {
             <Dumbbell className="w-8 h-8 text-red-600" />
             <div>
               <h1 className="text-2xl tracking-wider text-red-600">CALIFORNIA</h1>
-              <p className="text-xs text-gray-400 tracking-widest">KICKBOX SRBIJA</p>
+              <p className="text-xs text-gray-400 tracking-widest">KICKBOX PETROVAC</p>
             </div>
           </div>
 

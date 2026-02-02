@@ -8,7 +8,7 @@ const gymFeatures = [
   'Moderna teretana sa najnovijom opremom',
   'Slobodan ulaz - treniraš kada želiš',
   'Klimatizovan prostor',
-  'Tegovi od 1kg do 50kg',
+  'Fitness oprema',
   'Sprave za sve mišićne grupe',
   'Kardio zona sa trake i bicikli',
   'Svlačionice',
@@ -18,19 +18,19 @@ const gymFeatures = [
 const pricingOptions = [
   {
     name: 'Dnevna Karta',
-    price: '500 RSD',
-    description: 'Jedan trening, neograničeno vreme'
+    price: '250 RSD',
+    description: 'Jedan trening, 2 sata'
   },
   {
     name: 'Mesečna Članarina',
-    price: '3.500 RSD',
+    price: '2.500 RSD',
     description: 'Neograničen pristup celokupnoj teretani',
     popular: true
   },
   {
-    name: 'Tromesečna Članarina',
-    price: '9.000 RSD',
-    description: 'Uštedi 1.500 RSD, neograničen pristup'
+    name: 'Godišnja Članarina',
+    price: '25.000 RSD',
+    description: 'Uštedi 5.000 RSD, neograničen pristup'
   }
 ];
 
@@ -82,12 +82,12 @@ export function GymPage() {
               </h2>
               <div className="w-32 h-1 bg-red-600 mb-6"></div>
               <p className="text-lg text-gray-300 mb-6">
-                California Gym je moderna teretana opremljena najnovijim spravama i opremom. 
+                Sportski centar California Gym je moderna teretana opremljena najnovijim spravama i opremom. 
                 Nudimo slobodan pristup tokom radnog vremena, što znači da treniraš kada ti odgovara, 
                 bez obaveza i ograničenja.
               </p>
               <p className="text-lg text-gray-300 mb-8">
-                Imamo sve što ti treba: tegove od 1kg do 50kg, sprave za sve mišićne grupe, kardio zonu, 
+                Imamo sve što ti treba: sprave za sve mišićne grupe, kardio zonu, 
                 klimatizovan prostor i svlačionice. Iskusni treneri su dostupni za savete i pomoć.
               </p>
 
@@ -171,9 +171,9 @@ export function GymPage() {
               <span className="text-red-600">Cenovnik</span>
             </h2>
             <div className="w-32 h-1 bg-red-600 mx-auto mb-6"></div>
-            <p className="text-xl text-gray-400">
+            {/* <p className="text-xl text-gray-400">
               Bez skrivenih troškova. Samo čista cena za čist rad.
-            </p>
+            </p> */}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -227,15 +227,15 @@ export function GymPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="border-l-4 border-red-600 pl-6">
                 <p className="text-xl text-white mb-2">Ponedeljak - Petak</p>
-                <p className="text-3xl text-red-600">06:00 - 23:00</p>
+                <p className="text-3xl text-red-600">08:00 - 23:00</p>
               </div>
               <div className="border-l-4 border-red-600 pl-6">
                 <p className="text-xl text-white mb-2">Subota</p>
-                <p className="text-3xl text-red-600">08:00 - 22:00</p>
+                <p className="text-3xl text-red-600">08:00 - 23:00</p>
               </div>
               <div className="border-l-4 border-red-600 pl-6">
                 <p className="text-xl text-white mb-2">Nedelja</p>
-                <p className="text-3xl text-red-600">08:00 - 20:00</p>
+                <p className="text-3xl text-red-600">Slobodan dan</p>
               </div>
               <div className="border-l-4 border-red-600 pl-6 flex items-center">
                 <div>
@@ -252,7 +252,7 @@ export function GymPage() {
               Spreman da počneš?
             </h3>
             <p className="text-gray-300 mb-6">
-              Dođi da vidiš teretanu uživo. Prva sedmica je besplatna za nove članove!
+              Dođi da vidiš teretanu uživo. Prvi trening je besplatan za nove članove!
             </p>
             <Link
               to="/#contact"

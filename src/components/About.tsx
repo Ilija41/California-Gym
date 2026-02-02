@@ -31,7 +31,7 @@ export function About() {
           </h2>
           <div className="w-32 h-1 bg-red-600 mx-auto mb-6"></div>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            California Gym i Kickbox Srbija - vaša destinacija za profesionalne treninge i sport
+            Sportski centar California Gym i Kickbox Petrovac - vaša destinacija za profesionalne treninge i sport
           </p>
         </div>
 

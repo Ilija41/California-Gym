@@ -77,7 +77,7 @@ export function Trainers() {
               Iskusni Profesionalci
             </h3>
             <p className="text-gray-400 mb-4">
-              Branko i Vuk Glasnović, obojica poznati kao "Djeka", vode California Gym i Kickbox Srbija. 
+              Branko i Vuk Glasnović, obojica poznati kao "Djeka", vode sportski centar California Gym i Kickbox Petrovac. 
               Sa godinama iskustva u radu sa sportistima svih nivoa, kreiraju treninge 
               prilagođene individualnim potrebama i ciljevima.
             </p>

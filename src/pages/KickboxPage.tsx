@@ -72,7 +72,7 @@ export function KickboxPage() {
         <div className="absolute inset-0">
           <ImageWithFallback
             src="https://images.unsplash.com/photo-1696454411278-a64de1369e83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxraWNrYm94aW5nJTIwdHJhaW5pbmclMjBmaWdodGVyfGVufDF8fHx8MTc2Mjk2Nzg1OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            alt="Kickbox Srbija"
+            alt="Kickbox Petrovac"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black"></div>
@@ -83,7 +83,7 @@ export function KickboxPage() {
           <Swords className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-red-600 mx-auto mb-4 sm:mb-6" />
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-wider sm:tracking-widest mb-3 sm:mb-4">KICKBOX</h1>
           <div className="h-0.5 sm:h-1 bg-red-600 w-32 sm:w-40 md:w-48 mx-auto mb-4 sm:mb-6"></div>
-          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl tracking-wider sm:tracking-widest text-red-500 mb-3 sm:mb-4">KICKBOX SRBIJA</p>
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl tracking-wider sm:tracking-widest text-red-500 mb-3 sm:mb-4">KICKBOX PETROVAC</p>
           <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto px-4">
             Profesionalni kickbox treninzi za sve nivoe
           </p>
@@ -124,7 +124,7 @@ export function KickboxPage() {
               </h2>
               <div className="w-32 h-1 bg-red-600 mb-6"></div>
               <p className="text-lg text-gray-300 mb-6">
-                Kickbox Srbija nudi profesionalne kickbox treninge za sve nivoe - od potpunih početnika 
+                Kickbox Petrovac nudi profesionalne kickbox treninge za sve nivoe - od potpunih početnika 
                 do naprednih sportista. Treninzi obuhvataju tehniku udaraca, kretanje, odbranu, 
                 kao i razvoj kondicije i snage.
               </p>

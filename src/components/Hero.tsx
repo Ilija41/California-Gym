@@ -20,7 +20,7 @@ export function Hero() {
           <div className="inline-block border-2 sm:border-4 border-red-600 p-4 sm:p-6 md:p-8 mb-4 sm:mb-6">
             <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-wider sm:tracking-widest mb-2">CALIFORNIA</h1>
             <div className="h-0.5 sm:h-1 bg-red-600 w-full mb-2"></div>
-            <p className="text-base sm:text-xl md:text-2xl lg:text-3xl tracking-wider sm:tracking-widest text-red-500">KICKBOX SRBIJA</p>
+            <p className="text-base sm:text-xl md:text-2xl lg:text-3xl tracking-wider sm:tracking-widest text-red-500">KICKBOX PETROVAC</p>
           </div>
         </div>
         <p className="text-sm sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 tracking-wide uppercase text-gray-300">

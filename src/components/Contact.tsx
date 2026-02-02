@@ -21,7 +21,7 @@ export function Contact() {
           {/* California Gym */}
           <div className="bg-zinc-950 border-2 border-red-900/30 p-8 hover:border-red-600 transition-all">
             <h3 className="text-3xl text-white uppercase tracking-wide mb-6 border-b-2 border-red-600 pb-4">
-              California Gym
+              Sportski centar California Gym
             </h3>
             
             <div className="space-y-6">
@@ -59,10 +59,10 @@ export function Contact() {
             </div>
           </div>
 
-          {/* Kickbox Srbija */}
+          {/* Kickbox Petrovac */}
           <div className="bg-zinc-950 border-2 border-red-900/30 p-8 hover:border-red-600 transition-all">
             <h3 className="text-3xl text-white uppercase tracking-wide mb-6 border-b-2 border-red-600 pb-4">
-              Kickbox Srbija
+              Kickbox Petrovac
             </h3>
             
             <div className="space-y-6">

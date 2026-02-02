@@ -13,7 +13,7 @@ export function Footer() {
               <Dumbbell className="w-8 h-8 text-red-600" />
               <div>
                 <h3 className="text-xl tracking-wider text-red-600">CALIFORNIA</h3>
-                <p className="text-xs text-gray-400 tracking-widest">KICKBOX SRBIJA</p>
+                <p className="text-xs text-gray-400 tracking-widest">KICKBOX PETROVAC</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm">
@@ -57,7 +57,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-red-900/30 pt-8 text-center">
           <p className="text-gray-400 text-sm mb-2">
-            © {currentYear} California Gym & Kickbox Srbija
+            © {currentYear} California Gym & Kickbox Petrovac
           </p>
           <p className="text-gray-600 text-xs uppercase tracking-widest">
             Bez Kompromisa • Bez Izgovora • Bez Granica
